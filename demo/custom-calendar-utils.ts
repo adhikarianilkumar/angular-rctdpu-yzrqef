@@ -24,6 +24,8 @@ export class CustomCalendarUtils extends CalendarUtils {
   //   return view;
   // }
 
+  // Day view
+
   getDayView(args: GetDayViewArgs): DayView {
     const view = super.getDayView(args);
     view.width;
